@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>크린토피아 Mobile App Redesign</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/font.css" rel="stylesheet">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/scroll.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <main class="scr">
+            <ul class="scroll_bar">
+            </ul>
+            <div class="inner">
+                <div class="container">
+                    <div class="text_wrapper">
+                        <h1 class="title">
+                            <p>대한민국 No.1 세탁 전문 브랜드</p>
+                            <img src="img/logo.png" alt="logo" />
+                            <p>Mobile App Redesign</p>
+                        </h1>
+                        <div class="info">
+                            <p><span>작업기간:</span> 2021.09 - 2021.10</p>
+                            <p><span>작업툴:</span> Adobe Illustrator, Photoshop</p>
+                            <p><span>기여도:</span> 개인 100%</p>
+                        </div>
+                    </div>
+                    <div class="mockup_wrapper">
+                        <div class="mockup_box">
+                            <img src="img/mock_landing.png" alt="app" />
+                        </div>
+                        <div class="mockup_box">
+                            <img src="img/mock_main.png" alt="app" />
+                        </div>
+                    </div>
+                </div>
+                <div class="pic truck">
+                    <img src="img/truck.png" alt="truck" />
+                </div>
+                <div class="pic cloud">
+                    <img src="img/cloud_1.png" alt="cloud" />
+                </div>
+                <div class="pic cloud">
+                    <img src="img/cloud_2.png" alt="cloud" />
+                </div>
+                <div class="pic cloud">
+                    <img src="img/cloud_3.png" alt="cloud" />
+                </div>
+                <div class="pic cloud">
+                    <img src="img/cloud_4.png" alt="cloud" />
+                </div>
+                <div class="pic tree">
+                    <img src="img/tree_1.png" alt="tree" />
+                </div>
+                <div class="pic tree">
+                    <img src="img/tree_2.png" alt="tree" />
+                </div>
+            </div>
+            <div id="ground"></div>
+        </main>
+        <section class="sec_01 scr">
+            <div class="inner">
+                <h2 class="title">
+                    <p>OVERVIEW</p>
+                </h2>
+                <div class="container">
+                    <div class="text_wrapper">
+                        <p>
+                            <p><span>크린토피아는 현대인들의 편안하고 여유로운 삶에 기여하고자 하는</span></p>
+                            <p><span>기업이념으로 깨끗하고 신속한 세탁서비스를 제공하는</span></p>
+                            <p><span>대한민국의 대표적인 <span class="underline">세탁전문브랜드</span>입니다.</span></p>
+                            <p><span>점점 더 다양해진 현대사회인들의 생활패턴에 따라 크린토피아도</span></p>
+                            <p><span>일반세탁 외에도 수거배달,의류보관,코인워시 등 보다 다양한 서비스를</span></p>
+                            <p><span>제공하며 이용자들에게 더 가깝게 다가가고 있으나 그에 반해</span></p>
+                            <p><span>어플의 구성과 흐름이 다소 아쉬워 어플의 전반적인 문제점을</span></p>
+                            <p><span>분석하고 리디자인해보았습니다.</span></p>
+                        </p>
+                    </div>
+                    <div class="img_wrapper">
+                        <div class="img_box">
+                            <div class="wm_wrap">
+                                <div class="wm_inside">
+                                    <img src="img/wm_door.png" class="door" alt="door" />
+                                    <div class="laundry">
+                                        <img src="img/wm_laundry1.png" alt="laun" />
+                                        <img src="img/wm_laundry2.png" alt="laun" />
+                                        <img src="img/wm_laundry3.png" alt="laun" />
+                                        <img src="img/wm_laundry4.png" alt="laun" />
+                                    </div>
+                                    <div class="bg"></div>
+                                </div>
+                                <div class="wm">
+                                    <img src="img/wm.png" alt="wm" />
+                                </div>
+                            </div>
+                            <div class="deter">
+                                <img src="img/wm_detergent.png" alt="wm" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec_02 scr">
+            <div class="inner">
+                <h2 class="title">
+                    <p>PERSONA</p>
+                </h2>
+                <div class="container">
+                    <div class="row_wrapper">
+                        <div class="persona">
+                            <div class="prf_wrap">
+                                <img src="img/persona_1.png" alt="" />
+                                <p class="profile">안 * * / 주부(40대)</p>
+                            </div>
+                            <div class="spc_bub">
+                                <p>앱 실행하자마자 세탁 접수를
+                                    <br />바로 하고 싶은데
+                                    <br />접수 메뉴로 가기까지가
+                                    <br />좀 복잡한 거 같아요.</p>
+                            </div>
+                        </div>
+                        <div class="persona">
+                            <div class="prf_wrap">
+                                <img src="img/persona_2.png" alt="" />
+                                <p class="profile">강 * * / 대학생(20대)</p>
+                            </div>
+                            <div class="spc_bub">
+                                <p>서비스 이용을 하려면
+                                    <br />매장등록을 하라고 하는데
+                                    <br />매장검색도 잘 안되고
+                                    <br />어디에 등록메뉴가 있는건지
+                                    <br />도저히 못 찾겠어요.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row_wrapper">
+                        <div class="persona">
+                            <div class="prf_wrap">
+                                <img src="img/persona_3.png" alt="" />
+                                <p class="profile">정 * * / 직장인(30대)</p>
+                            </div>
+                            <div class="spc_bub">
+                                <p>세탁물 관리하려고 깔았는데
+                                    <br />어플 화면도 뭔가 올드하고 산만하고
+                                    <br />생각보다 손이 잘 안가네요.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec_03 scr">
+            <div class="inner">
+                <h2 class="title">
+                    <p>PROBLEM</p>
+                </h2>
+                <div class="container">
+                    <ul>
+                        <li class="old_app">
+                            <p>앱 진입 후 처음 보이는
+                                <br />화면의 밋밋한 컨텐츠
+                                <br />구성와 배치로 인해
+                                <br />앱 사용의 주목성과 흥미도 저하
+                            </p>
+                            <div class="img_box">
+                                <img src="img/old_scr_1.png" alt="old_app" />
+                            </div>
+                        </li>
+                        <li class="old_app">
+                            <p>색감이 뚜렷하고 부피가
+                                <br />큰 배경사진으로 인해
+                                <br />볼륨이 지나치게 커지고
+                                <br />시선이 분산됨
+                            </p>
+                            <div class="img_box">
+                                <img src="img/old_scr_2.png" alt="old_app" />
+                            </div>
+                        </li>
+                        <li class="old_app">
+                            <p>일부 메뉴가 겹치고
+                                <br />주요메뉴로의 도달까지
+                                <br />경로가 복잡하거나 불분명하여
+                                <br />편의성/간결성 부족
+                            </p>
+                            <div class="img_box">
+                                <img src="img/old_scr_1.png" alt="old_app" />
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="sec_04 scr">
+            <div class="inner">
+                <h2 class="title">
+                    <p>SOLUTION</p>
+                </h2>
+                <div class="container">
+                    <div class="con_box">
+                        <div class="sol_box">메인화면의 주요 컨텐츠 재배치</div>
+                        <div class="arrow">
+                            <span><img src="img/arrow.png" alt="arrow" /></span>
+                        </div>
+                        <div class="cir">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <p>흥미도 UP</p>
+                        </div>
+                    </div>
+                    <div class="con_box">
+                        <div class="sol_box">깔끔한 그래픽 이미지 활용</div>
+                        <div class="arrow">
+                            <span><img src="img/arrow.png" alt="arrow" /></span>
+                        </div>
+                        <div class="cir">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <p>간결성 UP</p>
+                        </div>
+                    </div>
+                    <div class="con_box">
+                        <div class="sol_box">중복되는 메뉴경로 최대한 줄이기</div>
+                        <div class="arrow">
+                            <span><img src="img/arrow.png" alt="arrow" /></span>
+                        </div>
+                        <div class="cir">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <p>편의성 UP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec_05 scr">
+            <div class="inner">
+                <h2 class="title">
+                    <p>DESIGN CONCEPT</p>
+                </h2>
+                <div class="container">
+                    <div class="row_wrapper">
+                        <div class="con color">
+                            <h3 class="con_title">COLOR CODE</h3>
+                            <div class="color_out_wrapper">
+                                <div class="color_in_wrapper main">
+                                    <div class="color_box">
+                                        <p class="color_title">MAIN COLOR</p>
+                                        <p class="color_code">#2471c8</p>
+                                    </div>
+                                </div>
+                                <div class="color_in_wrapper sub">
+                                    <div class="color_box">
+                                        <p class="color_title">SUB COLOR</p>
+                                        <p class="color_code">#B7D7F7</p>
+                                    </div>
+                                    <div class="color_box">
+                                        <p class="color_title">SUB COLOR</p>
+                                        <p class="color_code">#01A13F</p>
+                                    </div>
+                                </div>
+                                <div class="color_in_wrapper sub">
+                                    <div class="color_box">
+                                        <p class="color_title">SUB COLOR</p>
+                                        <p class="color_code">#A8A8A8</p>
+                                    </div>
+                                    <div class="color_box">
+                                        <p class="color_title">TEXT COLOR</p>
+                                        <p class="color_code">#000000</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con icon">
+                            <h3 class="con_title">ICON SET</h3>
+                            <div class="img_box">
+                                <img src="img/icon.png" alt="icon" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row_wrapper">
+                        <div class="con illust">
+                            <h3 class="con_title">ILLUSTRATION</h3>
+                            <div class="img_box">
+                                <img src="img/illust.png" alt="illust" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec_06 scr">
+            <div class="inner">
+                <h2 class="title">
+                    <p>WIREFRAME</p>
+                </h2>
+                <div class="container">
+                    <div class="wire_row">
+                        <div class="wire_wrap">
+                            <img src="img/wf_landing.png" alt="wireframe" />
+                        </div>
+                        <div class="svg_wrap">
+                            <svg class="line_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 249.2 18.31"
+                                width="249.1999969482422" height="18.309999465942383">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: none;
+                                            stroke: #2471c8;
+                                            stroke-miterlimit: 10;
+                                        }
+                                    </style>
+                                </defs>
+                                <g id="레이어_2" data-name="레이어 2">
+                                    <g id="배경_이미지" data-name="배경&nbsp;이미지">
+                                        <polyline class="cls-1 svg-elem-1"
+                                            points="248.7 0 248.7 8.81 0.5 8.81 0.5 18.31"></polyline>
+                                    </g>
+                                </g>
+                            </svg>
+                            <svg class="line_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 18.31" width="1"
+                                height="18.309999465942383">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: none;
+                                            stroke: #2471c8;
+                                            stroke-miterlimit: 10;
+                                        }
+                                    </style>
+                                </defs>
+                                <g id="레이어_2" data-name="레이어 2">
+                                    <g id="배경_이미지" data-name="배경&nbsp;이미지">
+                                        <line class="cls-1 svg-elem-1" x1="0.5" x2="0.5" y2="18.31"></line>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="wire_row">
+                        <div class="wire_wrap">
+                            <div class="img_wrap">
+                                <img src="img/wf_splash_1.png" alt="wireframe" />
+                                <img src="img/wf_splash_2.png" alt="wireframe" />
+                                <img src="img/wf_splash_3.png" alt="wireframe" />
+                            </div>
+                            <div class="img_wrap">
+                                <img src="img/wf_login.png" alt="wireframe" />
+                            </div>
+                            <div class="img_wrap">
+                                <img src="img/wf_alarm.png" alt="wireframe" />
+                            </div>
+                        </div>
+                        <div class="svg_wrap">
+                            <svg class="line_3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253.31 3.44"
+                                width="253.30999755859375" height="3.440000057220459">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: none;
+                                            stroke: #2471c8;
+                                            stroke-miterlimit: 10;
+                                        }
+                                    </style>
+                                </defs>
+                                <g id="레이어_2" data-name="레이어 2">
+                                    <g id="배경_이미지" data-name="배경&nbsp;이미지">
+                                        <line class="cls-1 svg-elem-1" y1="0.5" x2="253.31" y2="2.94"></line>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="wire_row">
+                        <div class="svg_wrap">
+                            <svg class="line_4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 18.31" width="1"
+                                height="18.309999465942383">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: none;
+                                            stroke: #2471c8;
+                                            stroke-miterlimit: 10;
+                                        }
+                                    </style>
+                                </defs>
+                                <g id="레이어_2" data-name="레이어 2">
+                                    <g id="배경_이미지" data-name="배경&nbsp;이미지">
+                                        <line class="cls-1 svg-elem-1" x1="0.5" x2="0.5" y2="18.31"></line>
+                                    </g>
+                                </g>
+                            </svg>
+                            <svg class="line_5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 299.48 175.41"
+                                width="299.4800109863281" height="175.41000366210938">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: none;
+                                            stroke: #2471c8;
+                                            stroke-miterlimit: 10;
+                                        }
+                                    </style>
+                                </defs>
+                                <g id="레이어_2" data-name="레이어 2">
+                                    <g id="배경_이미지" data-name="배경&nbsp;이미지">
+                                        <polyline class="cls-1 svg-elem-1"
+                                            points="299.48 20.69 292.66 20.69 292.66 0.5 250.04 0.5 250.04 174.91 0.5 174.91 0.5 163.15">
+                                        </polyline>
+                                        <line class="cls-1 svg-elem-2" x1="167.03" y1="174.91" x2="167.03" y2="163.15">
+                                        </line>
+                                        <line class="cls-1 svg-elem-3" x1="84.63" y1="174.91" x2="84.63" y2="163.15">
+                                        </line>
+                                    </g>
+                                </g>
+                            </svg>
+                            <svg class="line_6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.77 80.57"
+                                width="74.7699966430664" height="80.56999969482422">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: none;
+                                            stroke: #2471c8;
+                                            stroke-miterlimit: 10;
+                                        }
+                                    </style>
+                                </defs>
+                                <g id="레이어_2" data-name="레이어 2">
+                                    <g id="alarm_이미지" data-name="alarm&nbsp;이미지">
+                                        <polyline class="cls-1 svg-elem-1" points="0 80.07 3.1 80.07 3.1 0.5 74.77 0.5">
+                                        </polyline>
+                                    </g>
+                                </g>
+                            </svg>
+                            <svg class="line_7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 291.65 90.42"
+                                width="291.6499938964844" height="90.41999816894531">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: none;
+                                            stroke: #2471c8;
+                                            stroke-miterlimit: 10;
+                                        }
+                                    </style>
+                                </defs>
+                                <g id="레이어_2" data-name="레이어 2">
+                                    <g id="배경_이미지" data-name="배경&nbsp;이미지">
+                                        <polyline class="cls-1 svg-elem-1"
+                                            points="0 89.92 7.39 89.92 7.39 0.75 291.15 0.5 291.15 22.64"></polyline>
+                                        <line class="cls-1 svg-elem-2" x1="49.44" y1="0.64" x2="49.44" y2="13.01">
+                                        </line>
+                                    </g>
+                                    <g id="service_2_이미지" data-name="service_2&nbsp;이미지">
+                                        <line class="cls-1 svg-elem-3" x1="130.01" y1="0.64" x2="130.01" y2="13.01">
+                                        </line>
+                                        <line class="cls-1 svg-elem-4" x1="210.58" y1="0.78" x2="210.58" y2="13.01">
+                                        </line>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="wire_wrap">
+                            <div class="img_wrap">
+                                <img src="img/wf_event.png" alt="wireframe" />
+                                <img src="img/wf_usehistory.png" alt="wireframe" />
+                                <img src="img/wf_mylaundry.png" alt="wireframe" />
+                                <img src="img/wf_nav.png" alt="wireframe" />
+                            </div>
+                            <div class="img_wrap">
+                                <img src="img/wf_main.png" alt="wireframe" />
+                            </div>
+                            <div class="img_wrap">
+                                <img src="img/wf_service_1.png" alt="wireframe" />
+                                <img src="img/wf_service_2.png" alt="wireframe" />
+                                <img src="img/wf_service_3.png" alt="wireframe" />
+                                <img src="img/wf_service_4.png" alt="wireframe" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wire_row">
+                        <div class="wire_wrap">
+                            <div class="img_wrap">
+                                <img src="img/wf_storeinfo.png" alt="wireframe" />
+                                <img src="img/wf_search_1.png" alt="wireframe" />
+                                <img src="img/wf_search_2.png" alt="wireframe" />
+                            </div>
+                            <div class="img_wrap">
+                                <img src="img/wf_payment.png" alt="wireframe" />
+                                <img src="img/wf_payment.png" alt="wireframe" />
+                                <img src="img/wf_payment.png" alt="wireframe" />
+                                <img src="img/wf_payment.png" alt="wireframe" />
+                            </div>
+                        </div>
+                        <div class="svg_wrap">
+                            <svg class="line_8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215.35 95.7"
+                                width="215.35000610351562" height="95.69999694824219">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: none;
+                                            stroke: #2471c8;
+                                            stroke-miterlimit: 10;
+                                        }
+                                    </style>
+                                </defs>
+                                <g id="레이어_2" data-name="레이어 2">
+                                    <g id="배경_이미지" data-name="배경&nbsp;이미지">
+                                        <polyline class="cls-1 svg-elem-1" points="214.85 0 214.85 94.98 0 95.2">
+                                        </polyline>
+                                    </g>
+                                </g>
+                            </svg>
+                            <svg class="line_9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 242.21 96.15"
+                                width="242.2100067138672" height="96.1500015258789">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: none;
+                                            stroke: #2471c8;
+                                            stroke-miterlimit: 10;
+                                        }
+                                    </style>
+                                </defs>
+                                <g id="레이어_2" data-name="레이어 2">
+                                    <g id="배경_이미지" data-name="배경&nbsp;이미지">
+                                        <polyline class="cls-1 svg-elem-1" points="0.5 0 0.5 95.65 242.21 95.65">
+                                        </polyline>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec_07 scr">
+            <div class="inner">
+                <h2 class="title">
+                    <p>APPLICATION OUTPUT</p>
+                </h2>
+                <div class="container">
+                    <div class="mockup_wrapper">
+                        <div class="mockup_box">
+                            <img src="img/scr_splash01.png" class="scr_img" alt="스플래시" />
+                        </div>
+                        <div class="mockup_box">
+                            <img src="img/scr_splash02.png" class="scr_img" alt="스플래시" />
+                        </div>
+                        <div class="mockup_box">
+                            <img src="img/scr_splash03.png" class="scr_img" alt="스플래시" />
+                        </div>
+                    </div>
+                    <div class="text_wrapper">
+                        <p class="page_title">Splash</p>
+                        <p class="page_info">
+                            메인화면 진입 전
+                            <br />그래픽 스플래시를
+                            <br />삽입하여 앱 사용에 대한 이해도를
+                            <br />높이도록 하였습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec_08 scr">
+            <div class="inner">
+                <div class="container">
+                    <div class="mockup_wrapper">
+                        <div class="mockup_box"><img src="img/scr_login.png" class="scr_img" alt="로그인" /></div>
+                    </div>
+                    <div class="text_wrapper">
+                        <p class="page_title">Log in</p>
+                        <p class="page_info">
+                            크린토피아의 브랜드로고와 메인 컬러를 배경으로 설정하여
+                            <br />브랜드 아이덴티티를 뚜렷하게 하고 간편로그인 기능을 하단에 추가시켜
+                            <br />회원가입의 진입장벽을 낮췄습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec_09 scr">
+            <div class="inner">
+                <div class="container">
+                    <div class="mockup_wrapper">
+                        <div class="mockup_box"><img src="img/scr_main.png" class="scr_img" alt="메인" /></div>
+                    </div>
+                    <div class="text_wrapper">
+                        <p class="page_title">Main Page</p>
+                        <div>
+                            <p class="page_info">
+                                서비스 이용에 유용한 할인, 이벤트 정보를
+                                <br />메인 상단에 배치하여 이용자의 시선을 고정시킬 수
+                                <br />있도록 하였습니다.
+                            </p>
+                            <p class="page_info">
+                                메인 진입 후 바로 세탁접수를 할 수 있도록
+                                <br />접수 메뉴를 메인 중앙에 배치하여
+                                <br />메뉴 진입 경로를 줄였습니다.
+                            </p>
+                            <p class="page_info">
+                                크린토피아에 제공하는 여러가지 세탁서비스를
+                                <br />가로 스크롤로 배치하였습니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec_10 scr">
+            <div class="inner">
+                <div class="container">
+                    <div class="text_wrapper">
+                        <p class="page_title">
+                            Service Information
+                        </p>
+                        <p class="page_info">
+                            서비스에 대한 안내를 한 페이지 내에서
+                            <br />조회가 가능하게끔 상단에 바를 추가해
+                            <br />진입경로를 줄여 앱 이용의 편의성을 높였습니다.
+                        </p>
+                    </div>
+                    <div class="mockup_wrapper">
+                        <div class="mockup_box">
+                            <img src="img/scr_service01.png" class="scr_img" alt="서비스" />
+                        </div>
+                        <div class="mockup_box">
+                            <img src="img/scr_service02.png" class="scr_img" alt="서비스" />
+                        </div>
+                        <div class="mockup_box">
+                            <img src="img/scr_service03.png" class="scr_img" alt="서비스" />
+                        </div>
+                        <div class="mockup_box">
+                            <img src="img/scr_service04.png" class="scr_img" alt="서비스" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec_11 scr">
+            <div class="inner">
+                <div class="container">
+                    <div class="mockup_wrapper">
+                        <div class="mockup_box"><img src="img/scr_usehistory.png" class="scr_img" alt="이용내역" /></div>
+                    </div>
+                    <div class="text_wrapper">
+                        <p class="page_title">Use History</p>
+                        <p class="page_info">
+                            내역 조회 옵션을 기간 외에도 매장 및 서비스별로
+                            <br />조회할 수 있게끔 옵션 드롭다운을 추가하여
+                            <br />조회기능의 간편성을 주었습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec_12 scr">
+            <div class="inner">
+                <div class="container">
+                    <div class="mockup_wrapper">
+                        <div class="mockup_box"><img src="img/scr_mylaundry.png" class="scr_img" alt="세탁물현황" /></div>
+                    </div>
+                    <div class="text_wrapper">
+                        <p class="page_title">My Laundry</p>
+                        <p class="page_info">서비스별 세탁물 현황을 한 페이지 내에서
+                            <br />조회할 수 있도록 배치하였습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec_13 scr">
+            <div class="inner">
+                <div class="container">
+                    <div class="text_wrapper">
+                        <p class="page_title">Order & Payment</p>
+                    </div>
+                    <div class="mockup_wrapper">
+                        <div class="mockup_box">
+                            <img src="img/scr_payment01.png" class="scr_img" alt="주문접수" />
+                        </div>
+                        <div class="mockup_box">
+                            <img src="img/scr_payment02.png" class="scr_img" alt="주문접수" />
+                        </div>
+                        <div class="mockup_box">
+                            <img src="img/scr_payment03.png" class="scr_img" alt="주문접수" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec_14 scr">
+            <div class="inner">
+                <div class="container">
+                    <div class="mockup_wrapper">
+                        <div class="mockup_box">
+                            <div class="effect_box"></div>
+                            <div class="effect_box"></div>
+                            <div class="effect_box"></div>
+                            <div class="effect_box"></div>
+                            <img src="img/scr_payment04.png" class="scr_img" alt="주문접수" />
+                            <div class="basket">
+                                <img src="img/basket.png" alt="효과" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="scr">
+            <img src="img/footer_img.jpg" alt="footer" />
+        </footer>
+    </div>
+</body>
+
+</html>
